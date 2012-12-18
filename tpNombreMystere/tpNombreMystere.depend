@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1355866370 source:c:\users\silmathoron\documents\github\testsc\tpnombremystere\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
