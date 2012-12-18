@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1355859793 source:c:\users\silmathoron\c\testconditions\main.c
+	<stdio.h>
+	<stdlib.h>
+
