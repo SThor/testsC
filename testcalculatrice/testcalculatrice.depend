@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1355864651 source:c:\users\silmathoron\documents\github\testsc\testcalculatrice\main.c
+	<stdio.h>
+	<stdlib.h>
+

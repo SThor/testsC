@@ -8,8 +8,16 @@ int main()
     scanf("%d", &premierNombre);
     printf("\nDeuxieme nombre ?");
     scanf("%d", &deuxiemeNombre);
-    resultat = premierNombre/deuxiemeNombre;
-    reste = premierNombre%deuxiemeNombre;
-    printf("\nQuand on divise %d par %d, il y va %d fois, reste %d", premierNombre, deuxiemeNombre, resultat, reste);
+    if (deuxiemeNombre != 0)
+    {
+        resultat = premierNombre/deuxiemeNombre;
+        reste = premierNombre%deuxiemeNombre;
+        printf("\nQuand on divise %d par %d, il y va %d fois, reste %d \n", premierNombre, deuxiemeNombre, resultat, reste);
+    }
+    else
+    {
+        printf("Desole, les divisions par 0 sont trop difficiles. :( \n");
+
+    }
     return 0;
 }
