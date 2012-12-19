@@ -32,3 +32,24 @@ double moyenneTableau(int tableau[], int tailleTableau)
     return somme / tailleTableau;
 
 }
+
+void copie(int tableauOriginal[], int tableauCopie[], int tailleTableau)
+{
+    int i;
+    for(i = 0; i<tailleTableau; i++)
+    {
+        tableauCopie[i] = tableauOriginal[i];
+    }
+}
+
+void maximumTableau(int tableau[], int tailleTableau, int valeurMax)
+{
+    int i;
+    for(i = 0; i<tailleTableau; i++)
+    {
+        if(tableau[i]>valeurMax)
+        {
+            tableau[i] = 0;
+        }
+    }
+}
