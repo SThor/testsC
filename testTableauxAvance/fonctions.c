@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "fonctions.h"
+
 void afficheTableau(int tableau[], int tailleTableau)
 {
     int i;
@@ -19,7 +23,8 @@ int sommeTableau(int tableau[], int tailleTableau)
 
 double moyenneTableau(int tableau[], int tailleTableau)
 {
-    int somme = 0, i;
+    int i;
+    double somme = 0.0;
     for(i = 0 ; i < tailleTableau ; i++)
     {
         somme = somme + tableau[i];
