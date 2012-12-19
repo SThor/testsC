@@ -24,6 +24,11 @@ int main()
     maximumTableau(tableaubis, 4, valeurMax);
     printf("\nTableau 2 :\n");
     afficheTableau(tableaubis, 4);
+    printf("\nTri ordonne du tableau 1 :\n");
+    ordonnerTableau(tableau, 4);
+    printf("Tableau 1 :\n");
+    afficheTableau(tableau, 4);
+
 
     return 0;
 }

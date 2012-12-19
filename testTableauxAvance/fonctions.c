@@ -53,3 +53,23 @@ void maximumTableau(int tableau[], int tailleTableau, int valeurMax)
         }
     }
 }
+
+void ordonnerTableau(int tableau[], int tailleTableau)
+{
+    int i = 0, grand = 0, petit = 0;
+    while(i<tailleTableau)
+    {
+        if(tableau[i]>tableau [i+1])
+        {
+            grand = tableau[i];
+            petit = tableau[i+1];
+            tableau[i] = petit;
+            tableau[i+1] = grand;
+            i = 0;
+        }
+        else
+        {
+            i++;
+        }
+    }
+}
