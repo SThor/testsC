@@ -5,7 +5,7 @@
 
 int main()
 {
-    int tableau [4] = {1, 83, 51, 0};
+    int tableau [4] = {999, 83, 51, 20};
     int tableaubis[4] ={0}, valeurMax = 0;
 
     printf("Tableau 1 :\n");
