@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1355927149 source:c:\users\silmathoron\documents\github\testsc\testtableauxavance\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fonctions.h"
+
+1355927001 c:\users\silmathoron\documents\github\testsc\testtableauxavance\fonctions.c
+	<stdlib.h>
+	<stdio.h>
+	"fonctions.h"
+
+1355926571 c:\users\silmathoron\documents\github\testsc\testtableauxavance\fonctions.h
+
+1355927268 source:c:\users\silmathoron\documents\github\testsc\testtableauxavance\fonctions.c
+
