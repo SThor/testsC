@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1384292868 source:c:\users\silmathoron\documents\github\testsc\tp_pendu\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1382552383 source:c:\users\silmathoron\documents\github\testsc\tp_pendu\fonction.c
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1384194922 source:c:\users\silmathoron\documents\github\testsc\testallocdynamique\main.c
+	<stdio.h>
+	<stdlib.h>
+
